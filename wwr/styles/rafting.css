@@ -46,6 +46,10 @@ nav,p,section,article{
     position: relative;
 }
 
+.hero article{
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -64,8 +68,7 @@ h1{
 }
  
 .hero article img{
-    position: relative;
-    float: left;
+    float: right;
     width: 125px;
 
 }

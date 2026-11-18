@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #98c2db;
-    --secondary-color: #f4a261;
-    --accent1-color: #315968;
+    --primary-color: #ffffff;
+    --secondary-color: #56add8;
+    --accent1-color: #2a7c90;
     --accent2-color: #e9c46a;
     --heading-font:"Times New Roman", "Geogia", serif;
     --body-font: Ariel, Helvetica,sans-serif;
@@ -30,7 +30,7 @@ header,main,footer{
 
 h1,h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,p,section,article{
@@ -64,8 +64,10 @@ h1{
 }
  
 .hero article img{
-    float: right;
+    position: relative;
+    float: left;
     width: 125px;
+
 }
 
 
